@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Instagram</title>
+        <style>
+            #main{
+                max-width: 992px;
+                margin-left:440px;
+                margin-top: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #left{
+                float: left;
+            }
+            #main #right{
+                border:1px solid rgb(200, 200, 200);
+                float: right;
+                margin-top:30px;  
+                margin-right: 82px;
+                width: 377px;
+                padding-left:50px ;
+            }
+            #main #right img{
+                margin-top: 10px;
+                margin-left: -19px;
+                
+            }
+            #main #right form .inp{
+                margin-top: 20px;
+            }
+            #main #right form input{
+                border: 1px solid rgb(221, 217, 217);
+                width:330px;
+                height: 45px;
+                margin-top: 10px;
+                padding-left: 10px;
+                color: darkgray;
+                border-radius: 3px;
+            }
+            .login{
+                border: 1px solid #b2dffc;
+                background-color: #b2dffc;
+                text-align: center;
+                width:330px;
+                height: 27px;
+                padding-top: 5px;
+                margin-top: 20px;
+                border-radius: 5px;
+            }
+            .login a{
+                color:white;
+                text-decoration: none;
+                line-height: 20px;
+                font-weight: bolder;
+            }
+            
+            .or{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 15px;
+                margin: 20px 20px 20px;
+            }
+
+            .or .line{
+                width: 145px;
+                height: 2px;
+                background: #efefef
+            }
+
+            .or p{
+                color: #999;
+                font-size: 12px;
+            }
+            .facebook{
+                display: flex;
+                color:#385185;
+                padding-left: 100px;
+            }
+            .facebook p{
+                font-weight:bolder;
+            }
+           .change a{
+               padding-left: 100px;
+               text-decoration: none;
+               color:#385185;
+           }
+           .registration{
+                border:1px solid rgb(200, 200, 200);
+                float: right;
+                margin-top:30px;  
+                margin-right: 82px;
+                width: 377px;
+                line-height: 40px;
+                padding-left:50px ;
+           }
+           .registration a{
+               text-decoration: none;
+               font-weight: bolder;
+               color: #0095f6;
+           }
+           .links{
+                float: right;
+                margin-top:10px;  
+                margin-right: 22px;
+                width: 377px;
+                line-height: 40px;
+                padding-left:50px ;
+           }
+           .imgs{
+                float: right;
+                margin-top:10px;  
+                margin-right: 122px;
+           }
+
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="left"><img src="phone.png" width="450"></div>
+            
+            <div id="right">
+                <img src="logo.png" width="350">
+                <form action="">
+                    <div class="inp">
+                        <input type="text" placeholder="Номер телефона, имя пользователия или электронный адрес">
+                        <input type="password" placeholder="Пароль">
+                    </div>    
+                    <div class="login">
+                        <a href="">Войти</a>
+                    </div>
+                    <div class="or">
+                        <div class="line"></div>
+                        <p>ИЛИ</p>
+                        <div class="line"></div>
+                    </div>
+                    <div class="facebook">
+                        <img src="logoFec.png" width="25" height="25">
+                        <p>Войти через Facebook</p>
+                    </div>
+                    <div class="change">
+                        <a href=""> Забыли пароль? </a>
+                    </div>
+                </form>
+                
+            </div>
+            <div class="registration">
+                <p>У вас ещё нет аккаунта? <a href="">Зарегистрироваться</a> </p>
+                
+            </div>
+            <div class="links">
+                <p>Установите приложение.</p>
+                
+                
+            </div>
+            <div class="imgs">
+                    <a href=""><img src="appstore.png" width="170"></a>
+                    <a href><img src="googleplay.png" width="167"></a>
+                </div>
+        </div>
+    </body>
+</html>
