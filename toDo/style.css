@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+	margin: 0;
+    
+}  
+.header{
+    background-color: rgb(37, 37, 37);
+    color:gray;
+    margin: 0;
+    line-height: 70px;
+    padding: 0 100px;
+    font-size: 30px;
+}
+
+#main{
+    padding: 30px 450px;
+}
+#main p{
+    font-size: 50px;
+    color: rgb(37, 37, 37);
+}
+
+.add_elements{
+    display: flex;
+}
+
+input {
+    width: 70%;
+    padding: 5px 15px;
+    border: 1px solid #858686;
+    border-radius: 5px;
+    color: #858686;
+    line-height: 40px;
+    margin-left: 70px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.addBtn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #598fd4;
+    background: #598fd4;
+    color: #ffffff;
+    line-height: 40px;
+    margin-left: 25px;
+    font-size: 20px;
+    transition: 100ms;
+}
+  
+.addBtn:hover {
+    background-color: #304f79;
+}
+
+/* Remove margins and padding from the list */
+ul {
+    padding: 0 ;
+    border-radius: 5px;
+    border: 1px solid #c5c5c5;
+}
+
+
+ul li {
+    
+    word-break:break-all;
+    position: relative;
+    padding: 12px 40px 12px 40px;
+    list-style-type: none;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: 20ms;
+    line-height: 30px;
+    border-top:1px solid #c5c5c5;
+}
+li:first-child {
+    border:0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul li:hover {
+    background: rgb(220, 228, 228);
+}
+
+ul li.checked {
+    /* background: #888;
+    color: #fff; */
+    text-decoration: line-through;
+}
+
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: rgb(75, 73, 73);
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+  

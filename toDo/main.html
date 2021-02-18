@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+	    <title>ToDo</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        
+    </head>
+
+    <body>
+        <div class="header">
+            <p>ToDo List</p>
+        </div>
+        <div id="main">
+            <p>ToDo List</p>
+            <div class="add_elements">
+                <input type="text" id="myInput" placeholder="New Task">
+                <button onclick="newElement()" class="addBtn">Add</button>
+            </div>
+            <div class="container">
+                <ul id="myList">  
+                </ul>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
